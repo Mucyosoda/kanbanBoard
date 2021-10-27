@@ -23,3 +23,10 @@ a {
   text-decoration: none;
   color: blanchedalmond;
 }
+footer {
+  background-color: rgb(102, 134, 146); 
+  position: absolute;
+  margin-top: 30%;
+  text-align: center;
+  width: 100%;
+}
