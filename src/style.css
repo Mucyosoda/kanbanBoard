@@ -1,26 +1,40 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+
 nav {
   display: flex;
-  justify-content: center;
-  background-color: rgb(102, 134, 146);
+  padding-left: 150px;
+  height: 5rem;
+  align-items: center;
+  box-shadow: 0 12px 16px 6px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
   color: whitesmoke;
 }
 
 nav ul li {
   display: flex;
-  justify-content: space-between;
-  margin-right: 5%;
+  margin-right: 45%;
   list-style: none;
   text-decoration: none;
 }
 
 a {
   text-decoration: none;
-  color: blanchedalmond;
+  color: black;
+  font-size: 20px;
 }
 
 footer {
@@ -30,6 +44,7 @@ footer {
   text-align: center;
   width: 100%;
 }
+
 
 * {
   margin: 0;
