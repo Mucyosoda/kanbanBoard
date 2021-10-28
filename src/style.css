@@ -1,16 +1,4 @@
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: monospace;
-}
-
-
 nav {
   display: flex;
   padding-left: 150px;
@@ -44,7 +32,6 @@ footer {
   text-align: center;
   width: 100%;
 }
-
 
 * {
   margin: 0;

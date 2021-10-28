@@ -35,7 +35,7 @@ const displayPokemon = async (pokemon) => {
         btn.classList.add(pkmData.name, 'btn');
         btn.innerHTML = 'Comment';
         btn.addEventListener('click', () => {
-          // popUp(pkmData);
+          popUp(pkmData);
         });
         outerLi.appendChild(pokeImg);
         h1.appendChild(likesDiv);

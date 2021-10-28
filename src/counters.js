@@ -1,6 +1,5 @@
 const itemCounter = (allPokemon) => allPokemon.length;
 
-
 const commentCounter = (comments, title, list) => {
   if (comments.length >= 1) {
     title.innerHTML = `Comments (${comments.length})`;
@@ -10,5 +9,4 @@ const commentCounter = (comments, title, list) => {
   }
 };
 
-export { itemCounter, commentCounter };
-
+export { commentCounter, itemCounter };
