@@ -1,2 +1,2 @@
 const itemCounter = (allPokemon) => allPokemon.length;
-export { itemCounter };
+export default itemCounter;

@@ -1,9 +1,7 @@
-import _ from 'lodash';
 import './style.css';
-
 import fetchApi from './fetchApi.js';
 import displayPokemon from './displayPokes.js';
-import { itemCounter } from './counters.js';
+import itemCounter from './counters.js';
 
 const pokeTitle = document.querySelector('.poke-title');
 window.addEventListener('load', async () => {

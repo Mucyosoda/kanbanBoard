@@ -13,7 +13,7 @@ const displayPokemon = async (pokemon) => {
         const pokeImg = document.createElement('img');
         pokeImg.setAttribute(
           'src',
-          `${pokemonImage['official-artwork'].front_default}`
+          `${pokemonImage['official-artwork'].front_default}`,
         );
         pokeImg.setAttribute('alt', 'Pokemon');
         const h1 = document.createElement('h1');
@@ -34,7 +34,7 @@ const displayPokemon = async (pokemon) => {
         btn.classList.add(pkmData.name, 'btn');
         btn.innerHTML = 'Comment';
         btn.addEventListener('click', () => {
-          popUp(pkmData);
+          // popUp(pkmData);
         });
         outerLi.appendChild(pokeImg);
         h1.appendChild(likesDiv);
