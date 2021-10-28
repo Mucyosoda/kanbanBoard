@@ -1,8 +1,10 @@
+
 nav {
   display: flex;
   justify-content: center;
   background-color: rgb(102, 134, 146);
   /*justify-content: flex-end;*/
+
 }
 nav ul {
   display: flex;
@@ -72,4 +74,29 @@ footer {
 .heart:active {
   color: red;
   transition: 200ms;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+
+}
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-right:  5%; 
+  list-style: none;
+  text-decoration: none;
+
+}
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+footer {
+  background-color: rgb(102, 134, 146); 
+  position: absolute;
+  margin-top: 30%;
+  text-align: center;
+  width: 100%;
 }
