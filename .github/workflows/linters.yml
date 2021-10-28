@@ -36,7 +36,7 @@ jobs:
           [ -f .hintrc ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css-js/.hintrc
       - name: Webhint Report
 
-        run: npx hint --telemetry=off .
+        run: npx hint --telemetry=off 
 
   stylelint:
     name: Stylelint
