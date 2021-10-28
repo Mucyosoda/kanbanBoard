@@ -18,12 +18,12 @@ const displayPokemon = async (pokemon) => {
         pokeImg.setAttribute('alt', 'Pokemon');
         const h1 = document.createElement('h1');
         h1.innerHTML = `${pkmData.name}`;
-        const likesDiv = document.createElement('div');
+        const likesDiv = document.createElement('span');
         likesDiv.className = 'likes-div';
         const likeImg = document.createElement('i');
         likeImg.classList.add('fas', 'fa-heart', 'heart');
         likeImg.setAttribute('id', `${pkmData.name}`);
-        const span = document.createElement('span');
+        const span = document.createElement('div');
         span.setAttribute('id', 'like');
         const ul = document.createElement('ul');
         pokemonTypes.forEach((pokemon) => {
@@ -37,11 +37,12 @@ const displayPokemon = async (pokemon) => {
           popUp(pkmData);
         });
         outerLi.appendChild(pokeImg);
+        h1.appendChild(likesDiv);
         outerLi.appendChild(h1);
         likesDiv.appendChild(likeImg);
-        likesDiv.appendChild(span);
-        outerLi.appendChild(likesDiv);
-        outerLi.appendChild(ul);
+        outerLi.appendChild(span);
+
+        // outerLi.appendChild(ul);
         outerLi.appendChild(btn);
         cardSection.appendChild(outerLi);
         await fetchLikes(pkmData, span);
