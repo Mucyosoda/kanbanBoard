@@ -1,43 +1,12 @@
 import _ from 'lodash';
 import './style.css';
+import fetchApi from './fetchApi.js';
+import displayPokemon from './displayPokes.js';
+import { itemCounter } from './counters.js';
 
-function component() {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
-
-function fectchData() {
-  fetch('https://pokeapi.co/api/v2/ability/4')
-    .then((Response) => {
-      return Response.json();
-    })
-    .then((data) => {
-      console.log(data);
-    });
-  //   if (!Response.ok) {
-  //     throw Error('Error');
-  //   }
-  //   console.log(Response.json);
-  //   return Response.json();
-  // })
-  // .then((data) => {
-  //   console.log(data.data);
-  //   const html = data.data
-  //     .map((user) => {
-  //       return `<div class='user> <p>Name: ${user.pokemon.name}</p></div>`;
-  //     })
-  //     .join('');
-  //   console.log(html);
-  // })
-  // .catch((error) => {
-  //   console.log(error);
-  // });
-}
-fectchData();
+const pokeTitle = document.querySelector('.poke-title');
+window.addEventListener('load', async () => {
+  const res = await fetchApi();
+  pokeTitle.innerHTML = `Pokemon(${itemCounter(res.results)})`;
+  await displayPokemon(res.results);
+});
