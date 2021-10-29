@@ -24,7 +24,8 @@ Additional description about the project and its features.
 - ![](https://img.shields.io/badge/API-violet)
 - ![](https://img.shields.io/badge/JSON-violet)
 
-##periquities
+## periquities
+
 If you wish to run the project locally, please do the following:
 
 1.- Install Node.js and npm if you haven't already.
