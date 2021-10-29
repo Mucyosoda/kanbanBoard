@@ -48,6 +48,7 @@ const displayPokemon = async (pokemon) => {
         cardSection.appendChild(outerLi);
         await fetchLikes(pkmData, span);
       });
+      
   });
 };
 export default displayPokemon;
