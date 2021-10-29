@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-API Leaderboard
+# API Leaderboard
 
 > This project is designed to display the cards from an API where user can add comments and also can like a card. the system can counter number of comments and likes of each card.
 > ![screenshot](./appscreenshoot.PNG)
