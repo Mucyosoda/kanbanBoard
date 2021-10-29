@@ -1,4 +1,5 @@
 import fetchLikes from './fetchLikes.js';
+import popUp from './pop_up.js';
 
 const displayPokemon = async (pokemon) => {
   pokemon.forEach((pkm) => {
@@ -34,7 +35,7 @@ const displayPokemon = async (pokemon) => {
         btn.classList.add(pkmData.name, 'btn');
         btn.innerHTML = 'Comment';
         btn.addEventListener('click', () => {
-          // popUp(pkmData);
+          popUp(pkmData);
         });
         outerLi.appendChild(pokeImg);
         h1.appendChild(likesDiv);
