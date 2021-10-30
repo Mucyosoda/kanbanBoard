@@ -84,7 +84,7 @@ Happy coding!
 - Name: Mucyo Claude Ntacyonungutse
 - GitHub: [@Mucyosoda](https://github.com/Mucyosoda)
 - Name: Aladdin Alsalem
-- Twitter: [@AlaaAlsalem](https://github.com/AlaaAlsalem)
+- GitHub: [@AlaaAlsalem](https://github.com/AlaaAlsalem)
 
 ## 🤝 Contributing
 

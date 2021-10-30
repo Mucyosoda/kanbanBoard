@@ -161,12 +161,15 @@ button:hover {
 }
 
 .heart {
-  color: rgb(189, 187, 187);
+  color: rgba(194, 11, 11, 0.705);
 }
 
 .heart:active {
-  color: red;
-  transition: 200ms;
+  color: rgb(14, 13, 13);
+}
+
+.heart:focus {
+  color: rgb(34, 32, 32);
 }
 
 footer a,
