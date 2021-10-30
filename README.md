@@ -50,7 +50,7 @@ To install linters, run the following command in your terminal:
 ```bash
 npm install -g eslint
 npm install -g stylelint
-npm install -g webhint
+
 ```
 
 or follow the instructions on [eslint](https://eslint.org/), [stylelint](https://stylelint.io/), and [webhint](https://webhint.io/).
