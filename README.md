@@ -2,8 +2,8 @@
 
 # API Leaderboard
 
-> This project is designed to display the cards from an API where user can add comments and also can like a card. the system can counter number of comments and likes of each card.
-> ![screenshot](./appscreenshoot.PNG)
+> kanbanBoard is an API based webapp that displays cards containing information (like their image, type and location) about different pokemon. This is a single-page application(SPA) which contains the home page and comments modal pop-ups.
+> ![screenshot](./appscreenshoot.PNG) > ![screenshot](./appscreenshoot1.PNG)
 
 > [Live preview](https://mucyosoda.github.io/kanbanBoard/dist/)
 
