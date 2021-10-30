@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Poke-Dex
+# kanbanBoard
 
-> Poke-Dex is an API based webapp that displays cards containing information (like their image, type and location) about different pokemon. This is a single-page application(SPA) which contains the home page and comments modal pop-ups.
+> kanbanBoard is an API based webapp that displays cards containing information (like their image, type and location) about different pokemon. This is a single-page application(SPA) which contains the home page and comments modal pop-ups.
 
 
 
@@ -64,8 +64,7 @@ Give a ⭐️ if you like this project!
 # Acknowledgement
 
 - A big thanks to [PokeAPI](https://pokeapi.co/) for making the API endpoints readily available for use.
-- A big thanks to [@microverseinc](https://github.com/microverseinc) for providing the involvement API.
-
+ 
 # 📝 License
 
 This project is [MIT](LICENSE) licensed.
